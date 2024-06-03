@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="ass.css"> -->
+
+</head>
+<style>
+  
+.nav img{
+    height: 60px;
+
+}
+.nav-link{
+    margin-left: 123px;
+    margin-right: 125px;
+    border: 1px solid white;
+}
+.row img{
+    border-radius: 50%;
+    padding: 20px
+}
+.col-9{
+    margin-top: 120px;
+    /* margin-left: 10px; */
+    padding-left:150px ;
+}
+.four{
+    display:flex;
+
+}
+.four button{
+    height: 50px;
+    margin-top: 20px;
+
+    /* justify-content: center; */
+
+}
+.form-row{
+    display: flex;
+}
+</style>
+
+<body>
+  
+  <div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning w-100 h-25">
+      <a class="navbar-brand" href="#">          <img src="https://box.kmit.edu.in/mail/skins/elastic/images/logo.png?s=1687254111" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active ">
+            <a class="nav-link bg-dark text-light" href="#">About me </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link bg-success text-light" href="#">Education</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link bg-secondary text-light" href="#">Projects</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link bg-danger text-light" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <h1 class="display-3">About Me</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Pnt1rnG5_oeghvwAVvVBhcLrR5yZRqLRFw&usqp=CAU"
+          alt="">
+      </div>
+
+
+      <div class="col-9">
+        <h5>Sample</h5>
+        <li>Hi myself manasvini
+        </li>
+        <li>hello.</li>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="th">
+    <h1 class="display-3">My Education</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Eduction</th>
+          <th scope="col">Year</th>
+          <th scope="col">Cgpa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">1</th>
+          <td>SSC</td>
+          <td>2019</td>
+          <td>10.0</td>
+        </tr>
+        <tr>
+          <th scope="col">2</th>
+          <td>Inter</td>
+          <td>2022</td>
+          <td>9.54</td>
+        </tr>
+        <tr>
+          <th scope="col">3</th>
+          <td>B.Tech</td>
+          <td>2026</td>
+          <td>8.84</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <div class="four">
+    <h1 class="display-3">My Projects</h1>
+    <button type="button" class="btn btn-primary position-relative">
+      Total Projects
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        5
+        <span class="visually-hidden">Total</span>
+      </span>
+    </button>
+  </div>
+
+  <div class="container" id="myprojects">
+    
+    <div class="row my-5">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">CLick here</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">CLick here</a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      
+    </div>
+
+    <div class="row my-5">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">CLick here</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">CLick here</a>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      
+    </div>
+
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 class="display-3">Contact Me</h3>
+        <p>5-99-88/203</p>
+        <p>Narayanaguda</p>
+        <p>Hyderabad,500079</p>
+        <p>569842365</p>
+        <p>sample@kmit.in</p>
+
+      </div>
+      <div class="col">
+        <p>Let me reach out</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-6">
+              <label for="inputName"></label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+            </div>
+            <div class="form-group col-6 ">
+              <label for="inputPassword4"></label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2"></label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Message">
+          </div>
+          
+          
+          <button type="submit" class="btn btn-primary my-2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
